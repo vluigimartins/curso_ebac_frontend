@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 32px;
+    justify-content: center;
+    display: flex;
+}
+
+form {
+    padding: 12px;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    cursor: pointer;
+}
+
