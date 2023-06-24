@@ -1,0 +1,41 @@
+@use 'cores';
+
+header {
+    background-color: cores.$corCabecalho;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .imgpricipal {
+        height: 70px;
+        max-width: 200px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu li {
+        font-weight: bold;
+        margin-left: 24px;
+    }
+
+    .menu li a {
+        color: cores.$corTexto;
+        text-decoration: none;
+    }
+
+        @media screen and (max-width: 1023px) {
+            .container {
+                max-width: 80%;
+            }
+        
+    }
+}
